@@ -26,60 +26,74 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Sleep better, one scoop at a time"
+	text="The only ice cream designed to help you fall asleep—and stay asleep. We took everything parents love about ice cream and made it functional, blending proven sleep-inducing ingredients with rich, crave-worthy flavors.
+
+No pills, no gimmicks—just better nights, by the spoonful."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Isabella Martinez",
+			position: "Mother of twins",
+			company: "San Diego, CA",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Finally sleeping through the night again! After 8 months of 3-hour sleep cycles with my twins, this ice cream helped me fall asleep 40% faster.\nSaved me from $200/month on sleep supplements and countless hours of tossing and turning.",
+			image: "/generated/image-professional-headshot-of-a-confident-lat.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Father of three",
+			company: "Atlanta, GA",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Game changer for our bedtime routine. My kids love the taste, and I love that it actually works - sleeping 2 extra hours per night now.\nNo more expensive melatonin gummies or late-night grocery runs for sleep aids.",
+			image: "/generated/image-professional-headshot-of-a-tired-but-hop.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Lily Chen",
+			position: "New mom",
+			company: "Seattle, WA",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Cut my time to fall asleep from 45 minutes to just 15 minutes. As a first-time mom, those extra 30 minutes of sleep are precious.\nReplaced my $80/month sleep clinic visits with something that actually tastes amazing.",
+			image: "/generated/image-professional-headshot-of-a-warm-asian-mo.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why parents choose us"
+	subtitle="Designed specifically for sleep-deprived parents who deserve both better sleep and incredible flavor."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Sleep-inducing ingredients",
+			description: "Natural melatonin and chamomile work together to help you fall asleep faster and sleep deeper.",
+			imageSrc: "/generated/image-a-close-up-arrangement-of-natural-herbs-.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Peaceful nights guaranteed",
+			description: "Wake up refreshed instead of exhausted with our carefully crafted blend designed for quality rest.",
+			imageSrc: "/generated/image-a-parent-peacefully-sleeping-in-a-cozy-s.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Better mornings ahead",
+			description: "Start your day with energy and joy instead of dragging through another sleepless aftermath.",
+			imageSrc: "/generated/image-a-happy-parent-enjoying-a-morning-coffee.webp"
+		},
+		{
+			title: "Premium organic ingredients",
+			description: "Every pint uses the finest organic milk and natural sweeteners because parents deserve the best.",
+			imageSrc: "/generated/image-a-glass-of-organic-milk-on-a-wooden-tabl.webp"
+		},
+		{
+			title: "Family-friendly routine",
+			description: "Create a calming bedtime ritual that brings you closer to your children while caring for yourself.",
+			imageSrc: "/generated/image-a-parent-and-child-bonding-over-a-bedtim.webp"
+		},
+		{
+			title: "Science-backed formula",
+			description: "Developed with sleep specialists to deliver real results without compromising on taste or safety.",
+			imageSrc: "/generated/image-a-scientist-in-a-bright-laboratory-caref.webp"
 		}
 	]}
 />
