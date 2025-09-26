@@ -26,20 +26,17 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Good sleep tastes good"
+	subtitle="Ice cream that helps parents rest"
+	imageSrc="/generated/image-a-group-of-diverse-professionals-collabo.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Sleep-deprived? We've been there too. The idea for Company was born in the quiet chaos of a sleepless night—rocking a crying baby, exhausted, and desperate for rest. Like so many parents, we craved something to help us unwind, but everything felt either sterile, sugary, or ineffective. So we created what we couldn't find: a bedtime ritual that works—a rich, dreamy ice cream made to help you actually sleep.",
+		"We collaborated with food scientists, sleep specialists, and nutritionists to design a formula that blends function and flavor. Each pint is infused with ingredients like L-theanine, magnesium, and tart cherry—natural compounds backed by research and trusted by experts. The result? A sleep-supporting dessert that doesn't taste like a supplement. More than a million pints later, tired parents have found a sweet spot between science and indulgence.",
+		"At Company, we're on a mission to turn end-of-day exhaustion into a moment of calm. Starting with parents, we're reimagining what sleep routines can feel like: comforting, satisfying, and genuinely effective. Because when you sleep well, everything else feels lighter—from morning tantrums to the 3pm meeting. Better nights make better parents. And everyone deserves both."
 	]}
 />
 
