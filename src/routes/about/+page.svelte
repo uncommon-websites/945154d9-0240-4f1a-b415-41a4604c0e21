@@ -3,7 +3,6 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Icons
-	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
@@ -11,16 +10,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Science-backed wellness",
+			description: "Every ingredient is researched and proven to support better sleep, blending effectiveness with indulgence."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Parent empathy",
+			description: "We understand the exhaustion—because we've been there too. Every product is designed with tired parents in mind."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Premium quality",
+			description: "No compromises on taste or effectiveness. We create ice cream that works as well as it tastes."
 		}
 	];
 </script>
@@ -41,61 +40,12 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
-
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	generating
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<Culture {values} />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Your best sleep starts tonight"
+	subtitle="Finally, a bedtime treat that works"
+	description="Stop counting sheep and start savoring sleep. Our scientifically-crafted ice cream transforms restless nights into peaceful rest. Join over a million parents who've discovered the sweet solution to better sleep."
+	imageSrc="/generated/image-a-parent-relaxing-peacefully-in-a-cozy-b.webp"
 />
